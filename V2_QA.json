@@ -1,0 +1,14 @@
+{
+  "result_count": 24,
+  "unique_result_count": 24,
+  "hero_count": 24,
+  "fallback_thumb_count": 24,
+  "missing_heroes": [],
+  "missing_thumbs": [],
+  "index_at_root": true,
+  "app_js": true,
+  "styles_css": true,
+  "questions_js": true,
+  "results_js": true,
+  "nojekyll": true
+}
