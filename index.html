@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#07162c" />
+  <meta name="description" content="奇幻灵兽图鉴：36道情境题，匹配你的24种奇幻动物人格原型。" />
+  <title>奇幻灵兽图鉴｜测测藏在你灵魂深处的那只动物</title>
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css?v=3.0" />
+</head>
+<body>
+  <div class="site-stars" aria-hidden="true"></div>
+  <main id="app" class="app-shell">
+    <section id="screen-cover" class="screen cover-screen active">
+      <div class="cover-eyebrow">THE FANTASY SOUL ATLAS</div>
+      <h1>奇幻灵兽图鉴</h1>
+      <p class="cover-sub">36 个生活场景，找到与你最接近的灵魂原型</p>
+      <div class="cover-art"><img src="assets/heroes/moon_fox.webp?v=3.0" alt="银月狐奇幻插画"></div>
+      <div class="cover-quote">“不是测试你应该是谁，而是看见你更自然的反应方式。”</div>
+      <div class="cover-points"><span>24种原型</span><span>六维人格</span><span>完整长报告</span></div>
+      <button id="start-btn" class="cta gold">开始测试 <b>→</b></button>
+      <button id="resume-btn" class="cta ghost hidden">继续上次测试</button>
+      <p class="tiny">约 5–7 分钟 · 无需登录 · 结果仅用于趣味自我探索</p>
+    </section>
+
+    <section id="screen-intro" class="screen paper-screen">
+      <span class="section-kicker">进入图鉴馆</span>
+      <h2>不要选择“更优秀”的答案</h2>
+      <p class="intro-lead">只选择：<strong>如果没有人评价你，你过去一年里更可能怎么做。</strong></p>
+      <div class="intro-rule"><i>01</i><div><b>按真实频率作答</b><p>不要只想某一次极端情况。</p></div></div>
+      <div class="intro-rule"><i>02</i><div><b>两个答案都像你</b><p>选更自然、不需要刻意维持的那个。</p></div></div>
+      <div class="intro-rule"><i>03</i><div><b>结果不会只有一种面向</b><p>报告会同时给出主人格、第二原型和关系彩蛋。</p></div></div>
+      <button id="enter-quiz-btn" class="cta navy">我准备好了</button>
+    </section>
+
+    <section id="screen-quiz" class="screen paper-screen quiz-screen">
+      <header class="quiz-top">
+        <button id="quiz-back" class="circle-btn" aria-label="上一题">←</button>
+        <div class="quiz-progress"><div class="quiz-progress-row"><span id="question-num">1 / 36</span><span id="chapter-label">第一幕 · 初见</span></div><div class="track"><div id="progress-bar"></div></div></div>
+      </header>
+      <div class="question-block">
+        <div class="question-star">✦</div>
+        <h2 id="question-text"></h2>
+        <div id="options" class="options"></div>
+      </div>
+      <p class="quiz-hint">凭第一反应即可，没有“正确人格”。</p>
+    </section>
+
+    <section id="screen-analysis" class="screen analysis-screen">
+      <div class="analysis-orbit"><div>✦</div></div>
+      <span class="section-kicker light">SOUL PATTERN MATCHING</span>
+      <h2>正在匹配你的灵魂原型</h2>
+      <p id="analysis-status">把36个选择还原成六条连续倾向……</p>
+      <div class="analysis-list">
+        <div class="analysis-row done"><span>✓</span>计算六维人格轮廓</div>
+        <div class="analysis-row" id="a-step-2"><span>·</span>与24种原型逐一比对</div>
+        <div class="analysis-row" id="a-step-3"><span>·</span>检查第二原型与混合程度</div>
+        <div class="analysis-row" id="a-step-4"><span>·</span>生成专属报告</div>
+      </div>
+      <div class="analysis-track"><div id="analysis-bar"></div></div><strong id="analysis-percent">12%</strong>
+    </section>
+
+    <section id="screen-reveal" class="screen reveal-screen">
+      <button id="reveal-home" class="circle-btn reveal-home" aria-label="回到首页">⌂</button>
+      <span class="section-kicker light">YOUR SOUL ARCHETYPE</span>
+      <p class="reveal-intro">这次作答中，你最接近——</p>
+      <div class="reveal-art"><img id="reveal-image" src="" alt="结果灵兽插画"></div>
+      <div class="reveal-copy">
+        <h2 id="reveal-name"></h2>
+        <p id="reveal-subtitle"></p>
+        <div id="reveal-keywords" class="chips"></div>
+        <blockquote id="reveal-quote"></blockquote>
+      </div>
+      <section class="meaning-card">
+        <div><small>结果清晰度</small><b id="reveal-clarity">较清晰</b><p id="reveal-clarity-note"></p></div>
+        <div><small>回答轮廓</small><b id="reveal-stability">情境稳定</b><p id="reveal-stability-note"></p></div>
+      </section>
+      <section class="tendency-preview"><small>你最鲜明的三种倾向</small><div id="reveal-tendencies"></div></section>
+      <button id="open-report-btn" class="cta gold">打开完整图鉴报告 <b>→</b></button>
+    </section>
+
+    <section id="screen-report" class="screen report-screen-v3">
+      <header class="report-sticky">
+        <button id="report-home" class="circle-btn small" aria-label="回到首页">⌂</button>
+        <div class="report-current"><b id="current-chapter">身份档案</b><span id="chapter-count">1 / 6</span><div class="track"><div id="report-progress"></div></div></div>
+        <button id="open-toc" class="toc-btn">目录</button>
+      </header>
+      <div id="report-content" class="report-content"></div>
+      <div class="report-float-nav"><button id="prev-chapter">←</button><div id="chapter-dots"></div><button id="next-chapter">→</button></div>
+    </section>
+
+    <div id="toc-sheet" class="sheet hidden" role="dialog" aria-modal="true">
+      <div class="sheet-card"><div class="sheet-grab"></div><div class="sheet-head"><b>报告目录</b><button id="close-toc">×</button></div><div id="toc-list"></div></div>
+    </div>
+
+    <div id="axis-modal" class="sheet hidden" role="dialog" aria-modal="true">
+      <div class="sheet-card"><div class="sheet-grab"></div><div class="sheet-head"><b>六条人格轴是什么？</b><button id="close-axis">×</button></div>
+        <div class="axis-explain"><p>它们不是能力高低，也不是“越高越好”。每一条只是两种自然反应方式之间的位置。</p>
+        <ul><li><b>能量方式：</b>独处蓄能 ↔ 互动充电</li><li><b>新鲜偏好：</b>熟悉深耕 ↔ 探索未知</li><li><b>判断入口：</b>事实切分 ↔ 情绪共振</li><li><b>关系边界：</b>共同联结 ↔ 独立自主</li><li><b>行动节奏：</b>灵活应变 ↔ 计划建构</li><li><b>思考深度：</b>即时体验 ↔ 深度加工</li></ul>
+        <p>例如“关系边界偏自主”不是冷淡，只代表你在亲密关系里仍需要保留选择空间。</p></div>
+      </div>
+    </div>
+  </main>
+  <script src="data/questions.js?v=3.0"></script>
+  <script src="data/results.js?v=3.0"></script>
+  <script src="config.js?v=3.0"></script>
+  <script src="app.js?v=3.0"></script>
+</body>
+</html>

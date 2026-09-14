@@ -1,0 +1,458 @@
+{
+  "mist_deer": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      259,
+      563
+    ],
+    "hero_boundary": 291,
+    "hero_size": [
+      608,
+      582
+    ],
+    "collector_size": [
+      471,
+      2969
+    ]
+  },
+  "moon_fox": {
+    "src_size": [
+      941,
+      1672
+    ],
+    "x": [
+      238,
+      703
+    ],
+    "hero_boundary": 331,
+    "hero_size": [
+      900,
+      640
+    ],
+    "collector_size": [
+      720,
+      2591
+    ]
+  },
+  "amber_bear": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      216,
+      605
+    ],
+    "hero_boundary": 333,
+    "hero_size": [
+      778,
+      666
+    ],
+    "collector_size": [
+      602,
+      2969
+    ]
+  },
+  "moss_lynx": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      243,
+      577
+    ],
+    "hero_boundary": 309,
+    "hero_size": [
+      668,
+      618
+    ],
+    "collector_size": [
+      517,
+      2969
+    ]
+  },
+  "aurora_leopard": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      188,
+      632
+    ],
+    "hero_boundary": 267,
+    "hero_size": [
+      888,
+      534
+    ],
+    "collector_size": [
+      688,
+      2969
+    ]
+  },
+  "frost_wolf": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      0,
+      821
+    ],
+    "hero_boundary": 360,
+    "hero_size": [
+      900,
+      394
+    ],
+    "collector_size": [
+      760,
+      1773
+    ]
+  },
+  "cloud_hare": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      241,
+      583
+    ],
+    "hero_boundary": 295,
+    "hero_size": [
+      684,
+      590
+    ],
+    "collector_size": [
+      530,
+      2969
+    ]
+  },
+  "morning_crane": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      258,
+      563
+    ],
+    "hero_boundary": 298,
+    "hero_size": [
+      610,
+      596
+    ],
+    "collector_size": [
+      472,
+      2969
+    ]
+  },
+  "galaxy_whale": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      244,
+      578
+    ],
+    "hero_boundary": 305,
+    "hero_size": [
+      668,
+      610
+    ],
+    "collector_size": [
+      517,
+      2969
+    ]
+  },
+  "tide_dolphin": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      236,
+      565
+    ],
+    "hero_boundary": 302,
+    "hero_size": [
+      658,
+      604
+    ],
+    "collector_size": [
+      509,
+      2969
+    ]
+  },
+  "moon_jelly": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      223,
+      596
+    ],
+    "hero_boundary": 330,
+    "hero_size": [
+      746,
+      660
+    ],
+    "collector_size": [
+      578,
+      2969
+    ]
+  },
+  "narwhal": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      247,
+      573
+    ],
+    "hero_boundary": 309,
+    "hero_size": [
+      652,
+      618
+    ],
+    "collector_size": [
+      505,
+      2969
+    ]
+  },
+  "albatross": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      244,
+      577
+    ],
+    "hero_boundary": 305,
+    "hero_size": [
+      666,
+      610
+    ],
+    "collector_size": [
+      516,
+      2969
+    ]
+  },
+  "falcon": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      249,
+      574
+    ],
+    "hero_boundary": 296,
+    "hero_size": [
+      650,
+      592
+    ],
+    "collector_size": [
+      503,
+      2969
+    ]
+  },
+  "hummingbird": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      258,
+      563
+    ],
+    "hero_boundary": 293,
+    "hero_size": [
+      610,
+      586
+    ],
+    "collector_size": [
+      472,
+      2969
+    ]
+  },
+  "swift": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      230,
+      594
+    ],
+    "hero_boundary": 312,
+    "hero_size": [
+      728,
+      624
+    ],
+    "collector_size": [
+      564,
+      2969
+    ]
+  },
+  "phoenix": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      239,
+      582
+    ],
+    "hero_boundary": 299,
+    "hero_size": [
+      686,
+      598
+    ],
+    "collector_size": [
+      531,
+      2969
+    ]
+  },
+  "gold_lion": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      239,
+      583
+    ],
+    "hero_boundary": 272,
+    "hero_size": [
+      688,
+      544
+    ],
+    "collector_size": [
+      533,
+      2969
+    ]
+  },
+  "red_panda": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      241,
+      580
+    ],
+    "hero_boundary": 313,
+    "hero_size": [
+      678,
+      626
+    ],
+    "collector_size": [
+      525,
+      2969
+    ]
+  },
+  "peacock": {
+    "src_size": [
+      793,
+      1983
+    ],
+    "x": [
+      215,
+      579
+    ],
+    "hero_boundary": 354,
+    "hero_size": [
+      728,
+      708
+    ],
+    "collector_size": [
+      564,
+      3073
+    ]
+  },
+  "owl": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      239,
+      543
+    ],
+    "hero_boundary": 318,
+    "hero_size": [
+      608,
+      636
+    ],
+    "collector_size": [
+      471,
+      2969
+    ]
+  },
+  "butterfly": {
+    "src_size": [
+      793,
+      1983
+    ],
+    "x": [
+      206,
+      588
+    ],
+    "hero_boundary": 342,
+    "hero_size": [
+      764,
+      684
+    ],
+    "collector_size": [
+      592,
+      3073
+    ]
+  },
+  "black_cat": {
+    "src_size": [
+      821,
+      1916
+    ],
+    "x": [
+      257,
+      565
+    ],
+    "hero_boundary": 285,
+    "hero_size": [
+      616,
+      570
+    ],
+    "collector_size": [
+      477,
+      2969
+    ]
+  },
+  "crystal_swan": {
+    "src_size": [
+      793,
+      1983
+    ],
+    "x": [
+      207,
+      587
+    ],
+    "hero_boundary": 333,
+    "hero_size": [
+      760,
+      666
+    ],
+    "collector_size": [
+      589,
+      3073
+    ]
+  }
+}
